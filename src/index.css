@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.light {
+  background-color: white;
+  color: rgb(9, 40, 106);
+}
+.light .inner {
+  padding: 15px;
+}
+
+.dark {
+  background-color: rgb(0, 0, 0);
+  color: yellow;
+}
+.dark .inner {
+  padding: 15px;
+}
+
+body {
+  height: 100vh;
+}
+
+#bg-primary {
+  background-color: red;
+}
+
+ul {
+  list-style-type: none;
+  border: 2px solid black;
+  margin-top: 10px;
+}
+ul li {
+  padding: 5px;
+}
+ul a {
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial;
+}
+ul a:hover {
+  background-color: lightblue;
+}
+
+.bg-dark {
+  background-color: #111;
+  padding: 10px;
+}
+
+.bg-primary {
+  background-color: orange;
+  padding: 10px;
+}
+
+.bg-secondary {
+  background-color: green;
+  padding: 10px;
+}
+
+.bg-white {
+  background-color: #eee;
+  padding: 10px;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  width: 200px;
+  height: 500px;
+  color: red;
+}
+
+.btn-old, .btn-new {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.btn-new {
+  background-color: orangered;
+}
+
+.btn-old {
+  background-color: greenyellow;
+}
+
+body {
+  border: 2px dashed red;
+}/*# sourceMappingURL=index.css.map */
